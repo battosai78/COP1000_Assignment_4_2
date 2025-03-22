@@ -26,10 +26,10 @@ if int(prodScore) <= 30:
 elif int(prodScore) >= 200:
     print("Employee Name: " + employeeName)
     print("Employee Bonus: $200.00")
-elif int(prodScore) <= 199 or int(prodScore) >= 70:
+elif int(prodScore) <= 199 and int(prodScore) >= 70:
     print("Employee Name: " + employeeName)
     print("Employee Bonus: $100.00")
-elif int(prodScore) <= 69 or int(prodScore) >= 31:
+elif int(prodScore) <= 69 and int(prodScore) >= 31:
     print("Employee Name: " + employeeName)
     print("Employee Bonus: $75.00")
 
